@@ -1,6 +1,5 @@
 """Math functions for calculator."""
 
-
 def add(num1, num2):
     """Return the sum of the two inputs."""
 
@@ -25,12 +24,12 @@ def divide(num1, num2):
 def square(num1):
     """Return the square of the input."""
 
-    return num1 * num1
+    return num1 ** 2
 
 def cube(num1):
     """Return the cube of the input."""
 
-    return num1 * num1 * num1
+    return num1 ** 3
 
 def power(num1, num2):
     """Raise num1 to the power of num2 and return the value."""
@@ -40,3 +39,13 @@ def mod(num1, num2):
     """Return the remainder of num1 / num2."""
 
     return num1 % num2
+
+def add_mult(num1, num2, num3):
+    """Adds the first 2, and multiply with third"""
+   
+    return (num1 + num2) * num3
+
+def add_cubes(num1, num2):
+    """Adds the cubes of two number"""
+
+    return (num1 ** 3) + (num2 ** 3)
